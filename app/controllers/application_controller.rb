@@ -4,6 +4,6 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
   def index
-  	render :text "Le concept des pages statiques !"
+  	render text: "Le concept des pages statiques !"
   end
 end
